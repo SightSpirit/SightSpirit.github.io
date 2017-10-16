@@ -45,7 +45,7 @@
 		}
 		
 		function sub(){
-			opPress ? memNum -= getDisplay() : memNum = 0;
+			opPress ? memNum -= getDisplay() : memNum = getDisplay();
 			document.getElementById("display").value = "";
 			op = "sub";
 			opPress = true;
